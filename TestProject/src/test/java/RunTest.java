@@ -5,7 +5,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class RunTest {
     @Test
     public void openTest(){
-        System.out.println("Работает");
+        System.out.println("run");
         open("https://www.google.ru/?hl=ru");
     }
 }
